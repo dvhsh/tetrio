@@ -7,7 +7,7 @@
 
 <p align="center">
 	<a href="https://github.com/dvhsh/tetrio/stargazers"><img src="https://img.shields.io/github/stars/dvhsh/tetrio?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/dvhsh/tetrio/issues"><img src="https://img.shields.io/github/issues/dvhsh/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/dvhsh/tetrio/issues"><img src="https://img.shields.io/github/issues/dvhsh/tetrio?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
 	<a href="https://github.com/dvhsh/tetrio/contributors"><img src="https://img.shields.io/github/contributors/dvhsh/tetrio?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
