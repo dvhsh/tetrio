@@ -1,0 +1,14 @@
+#play_multi {
+    background-color: #f38ba8; /* red */
+    border-top: 3px solid #472d3d; /* not changed */
+    border-left: 3px solid #3c2734; /* not changed */
+    border-bottom: 3px solid #271b22; /* not changed */
+}
+
+#play_multi>h1 {
+    color: #cdd6f4; /* text */
+}
+
+#play_multi>p {
+    color: #a6adc8; /* subtext0 */
+}
