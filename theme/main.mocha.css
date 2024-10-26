@@ -1,8 +1,131 @@
+/* <!-- Menus --> */
+
+/*************/
+/* HEADER    */
+/*************/
+#menus[data-menu-type=home] #header {
+    /* surface1 to surface 0 */
+    background: linear-gradient(to bottom, #45475a 0, #313244 100%);
+    /* surface2 */
+    border-bottom: 2px solid #343642;
+}
+
+#menus[data-menu-type=home] #header_text {
+    color: #cdd6f4; /* text */
+}
+
+/***************/
+/* SOCIAL_TRAY */
+/***************/
+#menus #social_tray {
+    /* base to mantle */
+    background: linear-gradient(to bottom, #1e1e2e 0, #181825 100%);
+    border: 2px solid #11111b; /* crust */
+}
+
+#menus #social_tray #social_tray_separator {
+    background-color: #11111b; /* crust */
+}
+
+#menus #social_tray #social_tray_badge_people {
+    background-color: #f38ba8; /* red */
+}
+
+#menus #social_tray #social_tray_badge_notifications {
+    background-color: #f38ba8; /* red */
+}
+
+/*************/
+/* ME        */
+/*************/
+#menus #me {
+    /* base to mantle */
+    background: linear-gradient(to bottom, #1e1e2e 0, #181825 100%);
+    border: 2px solid #11111b; /* crust */
+}
+
+#menus #me_username {
+    color: #cdd6f4; /* text */
+}
+
+#menus #me_anon, #menus #me_bot, #menus #me_restricted {
+    color: #f38ba8; /* red */
+    background: #11111b; /* crust */
+    text-shadow: 0 0 4px #f44A; /* not changed */
+}
+
+#menus #me_leveling {
+    /* base to mantle */
+    background: linear-gradient(to bottom, #1e1e2e 0, #181825 100%);
+    border: 2px solid #f9e2af; /* yellow */
+    box-shadow: 0 0 8px #ffb40088; /* not changed */
+}
+
+.leveltag.lt_badge_color_0 {
+    color: #11111b; /* crust */
+    text-shadow: 0 0 2px #0006; /* not changed */
+}
+
+#menus #me_leveling_amt {
+    color: #cdd6f4; /* text */
+}
+
+#menus #me_leveling_bg {
+    background-color: #ffd80033; /* not changed */
+}
+
+#menus #me_leveling_fg {
+    background-color: #f9e2af; /* yellow */
+}
+
+#menus #me_leveling_message {
+    color: #000; /* not changed */
+}
+
+/***************/
+/* BACK / EXIT */
+/***************/
+#back, #list_request_back {
+    background-color: #1e1e2e; /* base */ 
+    border-top: 3px solid #313244; /* surface0 */
+    border-right: 3px solid #11111b; /* crust */
+    border-bottom: 3px solid #11111b; /* crust */
+    box-shadow: 0 0 8px #000; /* not changed */
+    color: #a6adc8; /* subtext0 */
+}
+
+#exit_electron {
+    background-color: #0006; /* not changed */
+    border-top: 3px solid #11111b; /* crust */
+    border-right: 3px solid #11111b; /* crust */
+    border-bottom: 3px solid #11111b; /* crust */
+    box-shadow: 0 0 8px #0004; /* not changed */
+    color: #a6adc8; /* subtext0 */
+}
+
+/*************/
+/* FOOTER    */
+/*************/
+#menus[data-menu-type=home] #footer {
+    /* surface0 to surface1 */
+    background: linear-gradient(to bottom, #313244 0, #45475a 100%);
+    border-top: 2px solid #343642; /* surface2 */
+}
+
+#menus[data-menu-type=home] #footer_text {
+    color: #a6adc8; /* subtext0 */
+}
+
+
+
+/*************/
+/* MAIN MENU */
+/*************/
 #play_multi {
     background-color: #f38ba8; /* red */
-    border-top: 3px solid #472d3d; /* not changed */
-    border-left: 3px solid #3c2734; /* not changed */
-    border-bottom: 3px solid #271b22; /* not changed */
+    border-top: 3px solid #472d3d; /* @TODO: not changed */
+    border-left: 3px solid #3c2734; /* @TODO: not changed */
+    border-bottom: 3px solid #271b22; /* @TODO: not changed */
 }
 
 #play_multi>h1 {
@@ -10,5 +133,5 @@
 }
 
 #play_multi>p {
-    color: #a6adc8; /* subtext0 */
+    color: #bac2de; /* subtext1 */
 }
